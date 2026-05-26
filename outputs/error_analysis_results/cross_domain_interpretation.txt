@@ -1,0 +1,38 @@
+
+CROSS-DOMAIN ERROR INTERPRETATION
+==================================
+
+In-domain baseline (ADReSS 5-fold CV)
+  Accuracy = 0.756 | FPR = 0.179 | FNR = 0.308
+
+ADReSS → CCC (joint_top_features)
+  Accuracy = 0.590 | FPR = 0.269 | FNR = 0.691
+  Performance drops substantially when ADReSS-trained features are applied to CCC.
+  The increased FNR suggests that the model's learned decision boundary — calibrated to
+  ADReSS speech patterns — fails to capture the AD-specific linguistic features present
+  in the CCC dataset. This is consistent with dataset-specific lexical and prosodic
+  differences: ADReSS participants describe a standardised picture (Cookie Theft),
+  whereas CCC contains more varied task structures.
+
+CCC → ADReSS (joint_top_features)
+  Accuracy = 0.519 | FPR = 0.000 | FNR = 0.962
+  The near-zero FPR (0.000) and very high FNR (0.962)
+  indicates the model collapses to predicting HC almost exclusively when trained on CCC
+  and tested on ADReSS. This is a strong signal of feature distribution shift:
+  the lexical and syntactic norms in CCC are sufficiently different that the
+  learned L1-selected features do not transfer. ADReSS participants may produce
+  shorter, more structured descriptions (picture-description task) whereas CCC
+  transcripts may include more conversational variation.
+
+Why cross-domain errors increase — key factors
+-----------------------------------------------
+1. Dataset-specific lexical patterns: L1 regularisation selects a sparse set of features
+   that are maximally discriminative within one dataset. These features may reflect
+   task-design artefacts (e.g. cookie-jar vocabulary) rather than domain-general AD markers.
+2. Recording and task differences: ADReSS uses a controlled picture-description paradigm.
+   CCC may contain more spontaneous speech with different baseline fluency distributions.
+3. Feature distribution shift: means and variances of handcrafted features (e.g. TTR,
+   n_adjacent_repetitions) differ across datasets, moving samples outside the training
+   distribution and causing systematic misclassification.
+4. Balanced-class training: the class_weight='balanced' setting corrects for within-dataset
+   imbalance but does not correct for cross-dataset shift in feature distributions.

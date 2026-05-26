@@ -1,0 +1,30 @@
+
+CONFUSION MATRIX INTERPRETATION
+================================
+
+Overall error asymmetry
+------------------------
+The model produced 14 false positives (FPR = 17.9%) and 24 false negatives
+(FNR = 30.8%) across the 5-fold CV. The dominant error type is FN, meaning the
+model misses AD cases (more FNs). The asymmetry between FPR and FNR is 0.128.
+
+This pattern is consistent with a classifier trained with class_weight='balanced': the balancing
+prevents extreme suppression of the minority class but can shift the decision boundary in ways
+that introduce FPs when the feature distributions overlap.
+
+AD detection
+------------
+The recall for AD is 69.2%, meaning the model correctly identifies
+54 of the 78 AD cases. The 24 missed AD cases (FN) represent participants
+whose linguistic profiles are atypically preserved — feature values closer to the HC distribution.
+These are clinically the most consequential errors.
+
+Systematic vs. random errors
+----------------------------
+Errors appear largely unsystematic — most participants are misclassified in at most one fold.
+
+Gender breakdown of errors
+--------------------------
+Among FP errors: 36% female, 64% male.
+Among FN errors: 50% female, 50% male.
+This should be interpreted as an exploratory observation, not a causal finding.

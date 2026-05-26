@@ -1,0 +1,21 @@
+# Large data files (exclude from GitHub)
+*.csv
+*.numbers
+ADReSS-IS2020-data/
+ADReSS-IS2020-data test 2/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+z_ADReSS-IS2020-data
+z_ADReSS-IS2020-data test 2
+zadress.dataset_beginning
+2020Labels.txt
