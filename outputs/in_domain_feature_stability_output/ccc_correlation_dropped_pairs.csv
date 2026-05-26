@@ -1,0 +1,16 @@
+kept_feature,dropped_feature,correlation
+avg_word_length,n_polysyllables,0.7743
+avg_word_length,n_monosyllables,0.8491
+n_lemmas,ttr,0.9945
+n_lemmas,n_low_concreteness,0.8636
+n_lemmas,n_low_aoa,0.9793
+n_lemmas,n_part,0.7081
+tokens_per_sentence,tree_depth,0.9373
+avg_concreteness,avg_Haptic_sensorimotor,0.7077
+avg_concreteness,avg_Visual_sensorimotor,0.8141
+avg_Gustatory_sensorimotor,avg_Olfactory_sensorimotor,0.8925
+avg_Foot_leg_sensorimotor,avg_Torso_sensorimotor,0.8034
+n_noun,pronoun_noun_ratio,0.8686
+n_noun,verb_noun_ratio,0.853
+n_noun,noun_verb_ratio,0.8475
+n_intj,filler_to_noun_ratio,0.9018

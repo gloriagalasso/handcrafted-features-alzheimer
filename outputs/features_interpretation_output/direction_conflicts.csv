@@ -1,0 +1,4 @@
+feature,ADReSS_avg_coef,CCC_avg_coef,ADReSS_direction,CCC_direction
+aux_verb_ratio,-0.4072,0.3186,negative,positive
+avg_word_length,-0.744,0.4769,negative,positive
+n_aux,-0.5405,0.8338,negative,positive

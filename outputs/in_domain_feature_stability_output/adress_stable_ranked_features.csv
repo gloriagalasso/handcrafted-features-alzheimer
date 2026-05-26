@@ -1,0 +1,26 @@
+feature,selected_folds,avg_coefficient,avg_abs_coefficient,directions,stable_direction,majority_direction,stable
+n_adjacent_repetitions,5,0.9327258843758581,0.9327258843758581,"['positive', 'positive', 'positive', 'positive', 'positive']",True,positive,True
+sentiment_score,5,-0.8782166532641169,0.8782166532641169,"['negative', 'negative', 'negative', 'negative', 'negative']",True,negative,True
+avg_word_length,5,-0.7439859149519235,0.7439859149519235,"['negative', 'negative', 'negative', 'negative', 'negative']",True,negative,True
+avg_Mouth_sensorimotor,5,-0.554254127725523,0.554254127725523,"['negative', 'negative', 'negative', 'negative', 'negative']",True,negative,True
+n_low_concreteness,5,0.5511246887180776,0.5511246887180776,"['positive', 'positive', 'positive', 'positive', 'positive']",True,positive,True
+n_adv,5,0.549682843929649,0.549682843929649,"['positive', 'positive', 'positive', 'positive', 'positive']",True,positive,True
+n_aux,5,-0.5405313866846972,0.5405313866846972,"['negative', 'negative', 'negative', 'negative', 'negative']",True,negative,True
+n_low_synsets,5,0.47692163299296964,0.47692163299296964,"['positive', 'positive', 'positive', 'positive', 'positive']",True,positive,True
+avg_Olfactory_sensorimotor,5,0.46721424273856005,0.46721424273856005,"['positive', 'positive', 'positive', 'positive', 'positive']",True,positive,True
+n_monosyllables,5,0.45034798195389447,0.45034798195389447,"['positive', 'positive', 'positive', 'positive', 'positive']",True,positive,True
+aux_verb_ratio,5,-0.40715423186752975,0.40715423186752975,"['negative', 'negative', 'negative', 'negative', 'negative']",True,negative,True
+tokens_per_sentence,5,-0.3902469567332095,0.3902469567332095,"['negative', 'negative', 'negative', 'negative', 'negative']",True,negative,True
+det_noun_ratio,5,-0.24526028206733605,0.24526028206733605,"['negative', 'negative', 'negative', 'negative', 'negative']",True,negative,True
+avg_Auditory_sensorimotor,5,0.2224120214901683,0.2224120214901683,"['positive', 'positive', 'positive', 'positive', 'positive']",True,positive,True
+avg_Hand_arm_sensorimotor,5,-0.1250649150361762,0.1250649150361762,"['negative', 'negative', 'negative', 'negative', 'negative']",True,negative,True
+noun_verb_ratio,4,-0.7185710315809981,0.7185710315809981,"['negative', 'negative', 'negative', 'negative']",True,negative,True
+n_verb,4,-0.6226153426371438,0.6226153426371438,"['negative', 'negative', 'negative', 'negative']",True,negative,True
+n_lemmas,4,-0.5647064547092293,0.5647064547092293,"['negative', 'negative', 'negative', 'negative']",True,negative,True
+n_VERB_Tense_Past,4,0.39871278465906723,0.39871278465906723,"['positive', 'positive', 'positive', 'positive']",True,positive,True
+n_num,4,-0.3230903914870126,0.3230903914870126,"['negative', 'negative', 'negative', 'negative']",True,negative,True
+n_polysyllables,4,-0.23635692222715246,0.23635692222715246,"['negative', 'negative', 'negative', 'negative']",True,negative,True
+avg_valence,4,0.19388874191532435,0.19388874191532435,"['positive', 'positive', 'positive', 'positive']",True,positive,True
+avg_Interoceptive_sensorimotor,3,0.27059604414136623,0.27059604414136623,"['positive', 'positive', 'positive']",True,positive,True
+avg_Head_sensorimotor,3,0.19054658875036737,0.19054658875036737,"['positive', 'positive', 'positive']",True,positive,True
+avg_aoa,3,-0.14420466561611894,0.14420466561611894,"['negative', 'negative', 'negative']",True,negative,True

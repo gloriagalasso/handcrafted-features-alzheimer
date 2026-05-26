@@ -1,0 +1,5 @@
+dataset,true_label,predicted_label,normalized_value,raw_count
+ADReSS,HC,HC,0.8205,64
+ADReSS,HC,AD,0.1795,14
+ADReSS,AD,HC,0.3077,24
+ADReSS,AD,AD,0.6923,54

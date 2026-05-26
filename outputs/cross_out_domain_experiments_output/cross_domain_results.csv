@@ -1,0 +1,16 @@
+experiment,feature_set,metric,mean,std
+cross_domain_cv,joint_top_features,accuracy,0.7668913857677903,0.04603665121770843
+cross_domain_cv,joint_top_features,precision,0.6947349201388573,0.050794825306746394
+cross_domain_cv,joint_top_features,recall,0.7314285714285714,0.13186263724816374
+cross_domain_cv,joint_top_features,f1,0.7073853923853924,0.07056143907707409
+cross_domain_cv,joint_top_features,auc,0.8609350649350649,0.03665547246854224
+cross_domain_cv,shared_features,accuracy,0.7354307116104868,0.04866723794397966
+cross_domain_cv,shared_features,precision,0.6522151783367087,0.06095289596978011
+cross_domain_cv,shared_features,recall,0.7142857142857143,0.08806305718527108
+cross_domain_cv,shared_features,f1,0.6787431937431937,0.05407901373432818
+cross_domain_cv,shared_features,auc,0.7966887926887927,0.054141716859776076
+cross_domain_cv,shared_relaxed_features,accuracy,0.7443945068664171,0.057498572761129546
+cross_domain_cv,shared_relaxed_features,precision,0.6633807491702229,0.07189531986081722
+cross_domain_cv,shared_relaxed_features,recall,0.7257142857142858,0.0960442075084092
+cross_domain_cv,shared_relaxed_features,f1,0.6897408183015952,0.0632369893914915
+cross_domain_cv,shared_relaxed_features,auc,0.7972332852332852,0.056314404712328264

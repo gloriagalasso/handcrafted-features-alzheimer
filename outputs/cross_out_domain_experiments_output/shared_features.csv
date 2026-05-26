@@ -1,0 +1,11 @@
+feature,adress_direction,ccc_direction,same_direction,adress_folds,ccc_folds
+aux_verb_ratio,negative,positive,False,5,5
+avg_Auditory_sensorimotor,positive,positive,True,5,5
+avg_Mouth_sensorimotor,negative,negative,True,5,5
+avg_valence,positive,positive,True,4,5
+avg_word_length,negative,positive,False,5,4
+n_VERB_Tense_Past,positive,positive,True,4,5
+n_adjacent_repetitions,positive,positive,True,5,4
+n_adv,positive,positive,True,5,5
+n_aux,negative,positive,False,5,5
+n_low_synsets,positive,positive,True,5,5

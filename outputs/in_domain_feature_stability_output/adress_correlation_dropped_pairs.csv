@@ -1,0 +1,13 @@
+kept_feature,dropped_feature,correlation
+n_lemmas,ttr,0.983
+n_lemmas,n_low_aoa,0.9611
+tokens_per_sentence,tree_depth,0.8089
+avg_concreteness,avg_Haptic_sensorimotor,0.8734
+avg_concreteness,avg_Visual_sensorimotor,0.867
+avg_concreteness,n_noun,0.7617
+avg_Foot_leg_sensorimotor,avg_Torso_sensorimotor,0.765
+n_verb,n_VERB_Tense_Pres,0.7368
+n_pron,pronoun_noun_ratio,0.8825
+n_pron,verb_noun_ratio,0.7355
+n_intj,filler_to_noun_ratio,0.8941
+n_part,particle_verb_ratio,0.7399

@@ -1,0 +1,7 @@
+experiment,feature_set,TN,FP,FN,TP
+adress_to_ccc,joint_top_features,141,52,67,30
+adress_to_ccc,shared_features,113,80,67,30
+adress_to_ccc,shared_relaxed_features,114,79,67,30
+ccc_to_adress,joint_top_features,78,0,75,3
+ccc_to_adress,shared_features,76,2,64,14
+ccc_to_adress,shared_relaxed_features,76,2,66,12

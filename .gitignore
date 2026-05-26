@@ -1,5 +1,4 @@
 # Large data files (exclude from GitHub)
-*.csv
 *.numbers
 ADReSS-IS2020-data/
 ADReSS-IS2020-data test 2/

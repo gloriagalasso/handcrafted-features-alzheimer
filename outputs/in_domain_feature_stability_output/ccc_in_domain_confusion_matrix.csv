@@ -1,0 +1,5 @@
+dataset,true_label,predicted_label,normalized_value,raw_count
+CCC,HC,HC,0.8601,166
+CCC,HC,AD,0.1399,27
+CCC,AD,HC,0.2887,28
+CCC,AD,AD,0.7113,69
